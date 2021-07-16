@@ -169,7 +169,7 @@ def five():
     #     if numb % 2 == 0:
     #         randomlist.append(numb)
     pass
-# This LOOKS like it's correct but i'm missing something, and i can't figure out what. How upsetting, I need more practice...
+# This LOOKS like it's correct but i'm missing something, and i can't figure out what. How upsetting, I need more practice.
     
 
 
@@ -261,8 +261,9 @@ def seven(a, b, c):
     # Use the cli to access the documentation help(str.replace)
 
 def eight(string, num):
-
-    return ""
+    num = int
+    new_string = string.replace(""[0:num])
+    return new_string
 
 
 
@@ -315,8 +316,10 @@ def nine(string1, string2):
     # Think about nesting for loops.
 
 def ten(a, b):
+    pass
     # numberlist = []
     # for i in range(0, a):
     #     for j in range(0, b):
     #        numberlist = i*j
-# This LOOKS like it should work but I can't place the syntax. Damn, I REALLY need more practice...
+    # return numberlist
+    #Why doesn't it work!?
