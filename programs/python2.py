@@ -126,8 +126,8 @@ def four(string1, string2):
 def five():
     from random import randint
     randomlist = []
-    for i in range(0, 5, 1):
-        numb = randint(99, 201)
+    for i in range(0, 5):
+        numb = randint(100, 200)
         if numb % 2 == 0:
             randomlist.append(numb)
     
@@ -149,7 +149,7 @@ def five():
     # There are no hints for this question.
     
 def six(string):
-    return False
+    return string.casefold().endswith("py")
 
     # <QUESTION 7>
 
