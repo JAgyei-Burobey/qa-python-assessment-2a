@@ -30,11 +30,23 @@
     # How does a for loop iterate through a string?
 
 def one(string):
-    # result = ""
+    result = ""
+    for letter in string:
+        char = chr[letter]
+    return result == result + char + char
     # for str(char) in string:
     #     return result += char
-    pass
+# I practiced this one, but I can't remember how to iterate strings properly, can't believe I can't answer this off the top of my head.
     
+    
+
+
+
+
+
+
+
+
 
     # <QUESTION 2>
 
@@ -59,7 +71,15 @@ def two(num):
     #     else: 
     #         return True
     pass
+# I KNOW I know how to do this, but I can't put my nloody finger on it, how irksome.
     
+
+
+
+
+
+
+
 
     # <QUESTION 3>
 
@@ -76,7 +96,16 @@ def two(num):
     # What happens if you multiply a string by a number?
 
 def three(a):
+    result = ""
     return 1
+# ran out of time
+
+
+
+
+
+
+
 
     # <QUESTION 4>
 
@@ -108,6 +137,15 @@ def four(string1, string2):
     result = ''.join(''.join(f for f in tup) for tup in zip(string1, string2))
 
     return result
+# looks good
+
+
+
+
+
+
+
+
 
     # <QUESTION 5>
 
@@ -124,13 +162,25 @@ def four(string1, string2):
     # The random module contains a function called randint.
 
 def five():
-    from random import randint
-    randomlist = []
-    for i in range(0, 5):
-        numb = randint(100, 200)
-        if numb % 2 == 0:
-            randomlist.append(numb)
+    # from random import randint
+    # randomlist = []
+    # for i in range(0, 5):
+    #     numb = randint(100, 200)
+    #     if numb % 2 == 0:
+    #         randomlist.append(numb)
+    pass
+# This LOOKS like it's correct but i'm missing something, and i can't figure out what. How upsetting, I need more practice...
     
+
+
+
+
+
+
+
+
+
+
 
     # <QUESTION 6>
 
@@ -150,6 +200,18 @@ def five():
     
 def six(string):
     return string.casefold().endswith("py")
+
+# looks good
+
+
+
+
+
+
+
+
+
+
 
     # <QUESTION 7>
 
@@ -174,6 +236,14 @@ def six(string):
 
 def seven(a, b, c):
     return False
+#ran out of time
+
+
+
+
+
+
+
 
     # <QUESTION 8>
 
@@ -191,7 +261,13 @@ def seven(a, b, c):
     # Use the cli to access the documentation help(str.replace)
 
 def eight(string, num):
+
     return ""
+
+
+
+
+
 
     # <QUESTION 9>
 
@@ -208,7 +284,20 @@ def eight(string, num):
     # There are no hints for this question.
 
 def nine(string1, string2):
-    return False
+#     if string1 in string2:
+#         return True
+#     elif string2 in string1:
+#         return True
+#     else:
+#         return False
+#The command is not (in), but the logic should be true, i've forgotten it... cant even google it cause i cant remember what to google...
+    pass
+
+
+
+
+
+
 
     # <QUESTION 10>
 
@@ -226,4 +315,8 @@ def nine(string1, string2):
     # Think about nesting for loops.
 
 def ten(a, b):
-    return []
+    # numberlist = []
+    # for i in range(0, a):
+    #     for j in range(0, b):
+    #        numberlist = i*j
+# This LOOKS like it should work but I can't place the syntax. Damn, I REALLY need more practice...
