@@ -30,7 +30,11 @@
     # How does a for loop iterate through a string?
 
 def one(string):
-    return ""
+    # result = ""
+    # for str(char) in string:
+    #     return result += char
+    pass
+    
 
     # <QUESTION 2>
 
@@ -48,7 +52,14 @@ def one(string):
     # Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(num):
-    return False
+    # for x in range(abs(num), 0, -1):
+    #     # while num % num == 0 and num % 1 == 0:
+    #     if num/x != 1:
+    #         return False
+    #     else: 
+    #         return True
+    pass
+    
 
     # <QUESTION 3>
 
@@ -94,7 +105,9 @@ def three(a):
     # How would you seperate a string into characters?
 
 def four(string1, string2):
-    return ""
+    result = ''.join(''.join(f for f in tup) for tup in zip(string1, string2))
+
+    return result
 
     # <QUESTION 5>
 
@@ -111,7 +124,13 @@ def four(string1, string2):
     # The random module contains a function called randint.
 
 def five():
-    return []
+    from random import randint
+    randomlist = []
+    for i in range(0, 5, 1):
+        numb = randint(99, 201)
+        if numb % 2 == 0:
+            randomlist.append(numb)
+    
 
     # <QUESTION 6>
 
